@@ -5,6 +5,12 @@
   margin: 0;
 }
 
+.navbar-light .navbar-toggler{
+  color: transparent;
+  border-color: transparent !important;
+  margin-right: 20px !important;
+}
+
 
 .navbar {
   max-width: 100%;
