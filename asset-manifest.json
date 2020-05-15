@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/tejasraibagi26.github.io/info/static/css/main.bd062357.chunk.css",
+    "main.js": "/tejasraibagi26.github.io/info/static/js/main.ce7a5871.chunk.js",
+    "main.js.map": "/tejasraibagi26.github.io/info/static/js/main.ce7a5871.chunk.js.map",
+    "runtime-main.js": "/tejasraibagi26.github.io/info/static/js/runtime-main.8b86e24c.js",
+    "runtime-main.js.map": "/tejasraibagi26.github.io/info/static/js/runtime-main.8b86e24c.js.map",
+    "static/css/2.4b36e02c.chunk.css": "/tejasraibagi26.github.io/info/static/css/2.4b36e02c.chunk.css",
+    "static/js/2.0b4e7a7e.chunk.js": "/tejasraibagi26.github.io/info/static/js/2.0b4e7a7e.chunk.js",
+    "static/js/2.0b4e7a7e.chunk.js.map": "/tejasraibagi26.github.io/info/static/js/2.0b4e7a7e.chunk.js.map",
+    "index.html": "/tejasraibagi26.github.io/info/index.html",
+    "precache-manifest.1e73690092f9aa393fbc4f3037c1294e.js": "/tejasraibagi26.github.io/info/precache-manifest.1e73690092f9aa393fbc4f3037c1294e.js",
+    "service-worker.js": "/tejasraibagi26.github.io/info/service-worker.js",
+    "static/css/2.4b36e02c.chunk.css.map": "/tejasraibagi26.github.io/info/static/css/2.4b36e02c.chunk.css.map",
+    "static/css/main.bd062357.chunk.css.map": "/tejasraibagi26.github.io/info/static/css/main.bd062357.chunk.css.map",
+    "static/js/2.0b4e7a7e.chunk.js.LICENSE.txt": "/tejasraibagi26.github.io/info/static/js/2.0b4e7a7e.chunk.js.LICENSE.txt",
+    "static/media/cert.svg": "/tejasraibagi26.github.io/info/static/media/cert.bac69a24.svg",
+    "static/media/introImage.svg": "/tejasraibagi26.github.io/info/static/media/introImage.53953741.svg",
+    "static/media/logo.svg": "/tejasraibagi26.github.io/info/static/media/logo.9bb1c583.svg",
+    "static/media/skill.svg": "/tejasraibagi26.github.io/info/static/media/skill.393207e1.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8b86e24c.js",
+    "static/css/2.4b36e02c.chunk.css",
+    "static/js/2.0b4e7a7e.chunk.js",
+    "static/css/main.bd062357.chunk.css",
+    "static/js/main.ce7a5871.chunk.js"
+  ]
+}
