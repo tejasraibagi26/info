@@ -8,8 +8,8 @@ function App() {
   return (
     <Router>
       <Switch>
-        <Route exact path = "/" component = {HomePage} />
-        <Route exact path = "/certificate" component = {CertificatePage} />
+        <Route exact path = "/info" component = {HomePage} />
+        <Route exact path = "/info/certificate" component = {CertificatePage} />
       </Switch>
     </Router>
   );

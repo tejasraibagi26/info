@@ -47,7 +47,13 @@
   text-align: center;
 }
 
-#home,#skills{
+.cert-title{
+  padding-top: 150px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+#home,#skills,#certificate-list{
   background-color: aliceblue;
   height: 100vh;
 }
@@ -168,12 +174,16 @@ form{
 
 /* Media */
 @media (max-width:770px){
-  #home,#skills{
+  #home,#skills,#certificate-list{
     background-color: white;
   }
 
   body,html {
     overflow-x: hidden; 
+  }
+
+  .cert-header{
+    margin: 0;
   }
 }
 
