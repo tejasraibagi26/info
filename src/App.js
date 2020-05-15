@@ -70,7 +70,9 @@ function App() {
               <p className="intro-content">
                 Want to see my Certificate?
               </p>
+              <p align = "center">
               <Button variant="outline-primary" className="cert-view" >View certificate</Button>
+              </p>
             </Col>
           </Row>
         </Container>
