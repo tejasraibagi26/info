@@ -142,6 +142,9 @@ function Homepage() {
                     </div>
                 </div>
             </div>
+            <footer className = "footer" id = "footer">
+                Made with &#x2764; by Tejas Raibagi
+            </footer>
         </main>
     );
 }

@@ -59,6 +59,13 @@
   margin-right: 100px;
 }
 
+.footer{
+  text-align: center;
+}
+
+#footer{
+  background-color: aliceblue;
+}
 
 #home,#skills,#certificate-list{
   background-color: aliceblue;
