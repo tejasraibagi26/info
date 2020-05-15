@@ -4,11 +4,12 @@ import introImage from '../introImage.svg';
 import certImage from '../cert.svg';
 import skillsImage from '../skill.svg';
 import SkillBar from 'react-skillbars';
-import certData from '../certificateData/certificate.json';
+// import certData from '../certificateData/certificate.json';
 import { Nav, Navbar, Container, Row, Col, Button, Form } from 'react-bootstrap';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
-import { Link } from 'react-scroll';
+import * as links from 'react-scroll';
+import { Link } from 'react-router-dom';
 import '../App.css';
 
 function Homepage() {
@@ -30,17 +31,17 @@ function Homepage() {
             <div className="nav-bar">
                 <Navbar collapseOnSelect expand="lg" fixed="top">
                     <Navbar.Brand href="#home" className="fadeInDown">
-                        <Link to="home" smooth={true} duration={1000}>
+                        <links.Link to="home" smooth={true} duration={1000}>
                             <img src={logo} className="logo" alt="Tejas Raibagi" />
-                        </Link>
+                        </links.Link>
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="mr-auto" >
-                            <Link to="home" smooth={true} duration={1000} className="btn fadeInDown" style={{ animationDelay: '.2s' }}>Home</Link>
-                            <Link to="certificate" smooth={true} duration={1000} className="btn fadeInDown" style={{ animationDelay: '.4s' }}>Certificate</Link>
-                            <Link to="skills" smooth={true} duration={1000} className="btn fadeInDown" style={{ animationDelay: '.6s' }}>Skills</Link>
-                            <Link to="contact" smooth={true} duration={1000} className="btn fadeInDown" style={{ animationDelay: '.8s' }}>Contact</Link>
+                            <links.Link to="home" smooth={true} duration={1000} className="btn fadeInDown" style={{ animationDelay: '.2s' }}>Home</links.Link>
+                            <links.Link to="certificate" smooth={true} duration={1000} className="btn fadeInDown" style={{ animationDelay: '.4s' }}>Certificate</links.Link>
+                            <links.Link to="skills" smooth={true} duration={1000} className="btn fadeInDown" style={{ animationDelay: '.6s' }}>Skills</links.Link>
+                            <links.Link to="contact" smooth={true} duration={1000} className="btn fadeInDown" style={{ animationDelay: '.8s' }}>Contact</links.Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Navbar>
@@ -72,7 +73,7 @@ function Homepage() {
                                 Want to see my Certificate?
                             </p>
                             <p align="center">
-                                <Link to="certificate-list" smooth={true} duration={2000}>
+                                <Link to="/info/certificate">
                                     <Button variant="outline-primary" className="cert-view" >View certificate</Button>
                                 </Link>
                             </p>
@@ -121,7 +122,7 @@ function Homepage() {
                     </Form>
                 </div>
             </div>
-            <div className="certificate-display" id="certificate-list">
+            {/* <div className="certificate-display" id="certificate-list">
                 <div className="cert-header">
                     <h2 className="cert-title fadeInDown">Certificates!</h2>
                     <div className="row">
@@ -141,8 +142,8 @@ function Homepage() {
                         })}
                     </div>
                 </div>
-            </div>
-            <footer className = "footer" id = "footer">
+            </div> */}
+            <footer className="footer" id="footer">
                 Made with &#x2764; by Tejas Raibagi
             </footer>
         </main>
