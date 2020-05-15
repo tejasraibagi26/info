@@ -86,6 +86,7 @@
 .cert-view{
  margin: auto;
  display: block;
+ text-decoration: none;
 }
 
 
