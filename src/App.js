@@ -9,7 +9,6 @@ function App() {
     <Router>
       <Switch>
         <Route exact path = "/info" component = {HomePage} />
-        <Route exact path = "/info/certificate" component = {CertificatePage} />
       </Switch>
     </Router>
   );
