@@ -2,7 +2,6 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 import HomePage from './pages/homepage';
-import CertificatePage from './pages/certificate';
 
 function App() {
   return (

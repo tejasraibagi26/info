@@ -30,7 +30,9 @@ function Homepage() {
             <div className="nav-bar">
                 <Navbar collapseOnSelect expand="lg" fixed="top">
                     <Navbar.Brand href="#home" className="fadeInDown">
-                        <img src={logo} className="logo" alt="Tejas Raibagi" />
+                        <Link to="home" smooth={true} duration={1000}>
+                            <img src={logo} className="logo" alt="Tejas Raibagi" />
+                        </Link>
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">

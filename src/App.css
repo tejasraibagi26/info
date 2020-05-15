@@ -53,6 +53,13 @@
   text-align: center;
 }
 
+.cert-header{
+  margin-top: 100px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+
 #home,#skills,#certificate-list{
   background-color: aliceblue;
   height: 100vh;
@@ -183,7 +190,9 @@ form{
   }
 
   .cert-header{
-    margin: 0;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
   }
 }
 
