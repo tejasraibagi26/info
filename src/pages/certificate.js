@@ -2,6 +2,7 @@ import React from 'react';
 import '../cert.css';
 import {Navbar,Nav} from 'react-bootstrap';
 import certData from '../certificateData/certificate.json';
+import {Link} from 'react-router-dom';
 
 import logo from '../logo.svg';
 
@@ -11,7 +12,9 @@ function Certificate(){
             <div className="nav-bar">
         <Navbar collapseOnSelect expand="lg" fixed="top">
           <Navbar.Brand href="#home" className="fadeInDown">
+            <Link to = "/info">
             <img src={logo} className="logo" alt="Tejas Raibagi" />
+            </Link>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
