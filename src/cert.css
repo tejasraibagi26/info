@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header-title{
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.cert-header{
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+
+.fadeInDown{
+    animation-name: fadeInDown;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+  }
+  
+  @keyframes fadeInDown{
+    0%{
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    100%{
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .slideInLeft{
+    animation-name: slideInLeft;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-delay: .5s;
+  }
+  
+  @keyframes slideInLeft{
+    0%{
+      opacity: 0;
+      transform: translateX(-100px);
+    }
+    100%{
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  .slideInRight{
+    animation-name: slideInRight;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-delay: .75s;
+  }
+  
+  @keyframes slideInRight{
+    0%{
+      opacity: 0;
+      transform: translateX(100px);
+    }
+    100%{
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
